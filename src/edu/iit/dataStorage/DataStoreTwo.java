@@ -27,6 +27,7 @@ public class DataStoreTwo extends DataStore {
         //this.id = id;
     }
 
+    //supports getters and setters
     public float getTemp_a() {
         return temp_a;
     }
