@@ -9,3 +9,5 @@
 ## Abstract Factory
 ![abStractFactory](https://user-images.githubusercontent.com/12513697/166331935-0c84e734-8e91-4dd9-9ae1-4fdf8f08a0f4.PNG)
 
+## Image Attribution
+### Images are from the book "Dive into Design Patterns" by Alexander Shvets.  Refactoring.guru was instrumental in this course.
