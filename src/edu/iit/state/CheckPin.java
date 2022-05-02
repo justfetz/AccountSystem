@@ -4,7 +4,8 @@ public class CheckPin implements State {
 
     MDA_EFSM m;
     private String message = "You cannot perform this action from this state.";
-
+    
+    //Will not use all methods, only relevance to the state
 
     public CheckPin(MDA_EFSM m) {
         this.m = m;
@@ -31,7 +32,7 @@ public class CheckPin implements State {
         System.out.println(message);
 
     }
-
+    //logic is from the posted notes
     @Override
     public void IncorrectPin(int max) {
         if (m.attempts < max) {
