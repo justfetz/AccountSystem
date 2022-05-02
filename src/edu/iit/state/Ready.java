@@ -1,7 +1,7 @@
 package edu.iit.state;
 
 import edu.iit.strategy.DisplayBalance;
-
+//events taken from diagram
 public class Ready implements State {
 
     MDA_EFSM m;

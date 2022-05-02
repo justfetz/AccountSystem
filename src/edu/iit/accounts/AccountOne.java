@@ -23,8 +23,8 @@ public class AccountOne implements Account {
                 '}';
     }
     //took awhile to figure this out
-    //cast the datastore from DataStoreOne and set
-    //currently not storing variable in temp vars
+    //IDE casts the datastore from DataStoreOne and sets
+    //currently not storing variable in temp vars (inoperable DataStore)
 
     public void open(int p, int y, int a) {
         ((DataStoreOne) ds).temp_p = p;
