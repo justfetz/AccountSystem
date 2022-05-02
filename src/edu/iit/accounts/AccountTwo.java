@@ -30,7 +30,7 @@ public class AccountTwo implements Account {
     public void PIN(int x) {
         if (x == ((DataStoreTwo) ds).getPin())
             m.CorrectPinAboveMin();
-        else m.IncorrectPin(5);
+        else m.IncorrectPin(3);
     }
 
     public void DEPOSIT(float d) {
@@ -76,7 +76,7 @@ public class AccountTwo implements Account {
     }
 
 
-/**METHODS FROM THE project site**/
+/*METHODS FROM THE project site*/
     /*
     * OPEN (int p, int y, float a) {
 // store p, y and a in temp data store
